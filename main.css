@@ -1,5 +1,4 @@
 main {
-  background-color: aqua;
   font-family: "Courier New", Courier, monospace;
   display: flex;
   flex-direction: column;
@@ -13,12 +12,13 @@ body {
 }
 
 main header {
-  background-color: pink;
+  display: flex;
+  justify-content: space-between;
 }
 main section {
   background-color: beige;
   flex-grow: 1;
 }
 main footer {
-  background-color: burlywood;
+  margin: 0;
 }
