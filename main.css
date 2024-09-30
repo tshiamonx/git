@@ -12,20 +12,30 @@ body {
 }
 
 main header {
+  padding: 0rem;
   display: flex;
   justify-content: space-between;
 }
 main section {
-  background-color: beige;
   flex-grow: 1;
   display: grid;
   grid-template-columns: 70% 30%;
   article {
-    background-color: antiquewhite;
+    margin: 0;
   }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.4rem solid white;
+  }
+  aside:last-child {
+    border-bottom: none;
+  }
+
   aside div {
-    background-color: aqua;
     border-bottom: 0.1rem solid white;
+
     flex-grow: 1;
   }
   aside div:last-child {
@@ -34,4 +44,5 @@ main section {
 }
 main footer {
   margin: 0;
+  padding: 0rem;
 }
