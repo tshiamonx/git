@@ -18,13 +18,15 @@ main header {
 main section {
   background-color: beige;
   flex-grow: 1;
-
+  display: grid;
+  grid-template-columns: 70% 30%;
   article {
-    background-color: white;
+    background-color: antiquewhite;
   }
   aside div {
     background-color: aqua;
     border-bottom: 0.1rem solid white;
+    flex-grow: 1;
   }
   aside div:last-child {
     border-bottom: none;
